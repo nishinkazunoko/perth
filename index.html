@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- headタグ内で読み込むリソース:start -->
+
+<link rel="stylesheet" href="./assets/css/slick.css">
+<link rel="stylesheet" href="./assets/css/slick-theme.css">
+<link rel="stylesheet" href="./assets/css/resset.css">
+<link rel="stylesheet" href="./assets/css/style.css">
+
+<script src="./assets/js/slick.min.js" defer></script>
+<script src="./assets/js/slider.js" defer></script>
+<script src="./assets/js/tourList.js" defer></script>
+<script src="./assets/js/index.js" defer></script>
+<script src="./assets/js/observers.js" defer></script>
+
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Noto+Sans+JP:wght@100..900&family=Noto+Serif+JP:wght@200..900&family=Shippori+Mincho&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<meta name="dns-prefetch-control" content="on">
+<link rel="preconnect dns-prefetch" href="marketingplatform.google.com/about/tag-manager">
+
+<title>オーストラリア・パースの魅力を紹介する特集ページ「PERTH」</title>
+<meta property="og:title" content="オーストラリア・パースの魅力を紹介する特集ページ「PERTH」">
+<meta property="og:site_name" content="オーストラリア・パースの魅力を紹介する特集ページ「PERTH」">
+<meta property="og:type" content="website">
+<meta property="og:url" content="">
+<meta property="og:image" content="./assets/image/OGP">
+<meta property="og:description" content="かつて探検家たちが魅了され、今も世界中の旅人を惹きつけてやまない西オーストラリアの美しい都、パースの魅力を紹介。パースを巡るツアーの情報も。">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary">
+<!-- <meta name="twitter:site" content=""> -->
+<meta name="twitter:description" content="かつて探検家たちが魅了され、今も世界中の旅人を惹きつけてやまない西オーストラリアの美しい都、パースの魅力を紹介。パースを巡るツアーの情報も。">
+<meta name="twitter:image" content="./assets/image/OGP">
+<meta name="twitter:url" content="">
+<meta name="theme-color" content="EEE5CF_1">
+<link rel="canonical" href="">
+<meta name="robots" content="noarchive">
+<meta name="robots" content="noindex">
+</head>
+
+<body>
+
+<div class="perth" id="perth">
+<!-- ▼ ヘッダー ▼ -->
+	<header class="header" id="header" data-fixed-header="">
+		<div class="header__fixed">
+			<div class="logo__fixed">
+				<a href="/feature_pages/Japanese_garden" aria-label="THE GARDEN　庭のページへ">
+					<img src="./assets/images/logo.png" width="124" height="70" alt="THE GARDEN　庭">
+				</a>
+				<h1 class="notoSan">
+					オーストラリア・パースの<br class="for_sp">魅力を紹介する「PERTH」
+				</h1>
+			</div>
+			<div class="ham__fixed">
+				<button class="ham" aria-expanded="false" aria-label="メニューを開く" aria-controls="globalMenu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</button>
+			</div>
+		</div>
+		<nav class="globalMenu" aria-label="グローバルナビゲーション" id="globalMenu">
+			<ul class="globalMenu_li">
+				<li class="globalMenu_li__item">
+						<a href="/">
+							<span class="gara">TOP</span>
+						</a>
+				</li>
+				<li class="globalMenu_li__item">
+					<a href="#garden-map">
+						<span class="gara">MAP</span>
+						～観光スポットマップ～
+					</a>
+				</li>
+				<li class="globalMenu_li__item">
+					<a href="#tour" class="nav-tour">
+						パースを楽しむツアーのご案内
+					</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- ▲ ヘッダー ▲ -->
+
+
+	<main>
+	<!-- ▼ スライダー ▼ -->
+			<section id="slider" class="slider">
+					<div class="slider__list" id="slider__list">
+					</div>
+					<!-- 再生・停止ボタン -->
+						<!-- DOM操作で生成 -->
+					<!-- 再生・停止ボタン -->				
+			</section>
+	<!-- ▲ スライダー ▲ -->
+	
+	<div class="laed notoSan">
+		<p>
+			かつて探検家たちが魅了され、今も世界中の旅人を惹きつけてやまない西オーストラリアの美しい都。<br>パース市内から少し足を伸ばした海岸線まで、各地に点在する五感を満たすスポットを中心に、あなただけの特別な楽しみ方をご紹介します。
+		</p></div>
+
+	<!-- ▼ サムネイル ▼ -->
+	<div class="inner">
+		<ul class="thumb trigger left" id="thumb"></ul>
+		<div class="btn_thumb">
+			<button class="js-more_button">もっと見る</button>
+		</div>
+	</div>
+	<!-- ▲ サムネイル ▲ -->
+
+	
+	<!-- ▼ ～観光スポットマップ～	▼ -->
+		<section id="garden-map" class="garden-map">
+			<div class="inner">
+			<h2 class="h2Heading trigger in">
+				<span class="h2Heading-item">
+					<span class="gara">MAP</span>
+					～観光スポットマップ～
+				</span>
+			</h2>
+			<div class="map" >
+				<iframe src="https://www.google.com/maps/d/embed?mid=1OUb986TFSmZUXLDEX4L7ymygVyVkIrw&ehbc=2E312F&noprof=1" width="1366" height="720" loading="lazy" title="Perth観光マップ"></iframe>
+			</div>
+		</div>
+		</section>
+	<!-- ▲ ～観光スポットマップ～ ▲ -->
+
+	<!-- ▼ パースを楽しむツアーのご案内 ▼ -->
+		<section id="tour" class="tour">
+			<div class="inner">
+				<h2 class="h2Heading trigger in">
+					<span class="h2Heading-item">
+						パースを楽しむ<br class="for_sp">ツアーのご案内
+					</span>
+				</h2>
+				<p class="lead lead02 txt notoSan">
+				　「PERTH」に掲載したパースを巡るツアーを企画しています。<br>
+				　これまでに10回を超すツアーが開催され、延べ1000人あまりが参加。パースの街を楽しみました。
+				</p>
+				<figure class="trigger up">
+					<img src="./assets/images/tour01.jpg" width="420" height="280" alt="" loading="lazy">
+					<figcaption class="notoSan">スカボロービーチを見学するツアーの参加者たち</figcaption>
+				</figure>
+				<div class="voice">
+					<h3 class="bb-none">参加者の声</h3>
+					<ul>
+						<li class="">
+							<span><img src="./assets/images/icon_tour-txt.png" width="100" height="100" alt="" loading="lazy"></span>
+							<p class="notoSan trigger right">自然と調和した美しい景色がとても印象的でした。パースならではの自然の魅力を存分に感じることができ、ゆったりとした時間を過ごせました。とても充実したツアーで、参加してよかったです。</p>
+						</li>
+						<li class="">
+							<p class="notoSan trigger left">初めて訪れる場所でも、ガイドさんの説明を聞きながら巡ることで、より楽しく観光することができました。自分たちだけでは気づかなかったポイントも知ることができて、パースをより身近に感じられる素敵なツアーでした。</p>
+							<span><img src="./assets/images/icon_tour-txt.png" width="100" height="100" alt="" loading="lazy"></span>
+						</li>
+					</ul>
+					<p class="txt notoSan lead">
+						各地の日本庭園を舞台にしたツアーを次々と開催中です。<br>詳細は中日ツアーズの公式ホームページをご覧ください。
+					</p>
+				</div>
+
+				<div class="tours">
+					<h3 class="bb-none">参加者募集中のツアー</h3>
+					<ul id="tourList" class="tourList trigger up">
+						<!-- 動的に生成 -->
+					</ul>
+				</div>
+			</div>
+		</section>
+
+	<!-- ▼ SNS一覧 ▼ -->
+		<section class="sns">
+			<div class="inner">
+				<div class="share">
+					<p class="notoSan">このページをシェアする</p>
+					<ul class="icons">
+						<li>
+							<a href="javascript:window.open('http://www.facebook.com/sharer.php?u='+encodeURIComponent(location.href));" aria-label="facebookで共有する">
+								<img src="./assets/images/icon_fb.png" alt="" aria-hidden="true" width="40" height="40" loading="lazy">
+							</a>
+						</li>
+						<li>
+							<a href="javascript:window.open('http://x.com/share?text='+encodeURIComponent(document.title)+'&url='+encodeURIComponent(location.href));" aria-label="xで共有する">
+								<img src="./assets/images/icon_x.png" alt="" aria-hidden="true" width="40" height="40" loading="lazy">
+							</a>
+						</li>
+						<li>
+							<a href="javascript:window.open('http://line.me/R/msg/text/?'+encodeURIComponent(document.title)+'%20'+encodeURIComponent(location.href));" aria-label="lineで共有する">
+								<img src="./assets/images/icon_line.png" alt="" aria-hidden="true" width="40" height="40" loading="lazy">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	<!-- ▲ SNS一覧 ▲ -->
+	</main>
+
+	<!-- ▼ フッター ▼ -->
+	<footer>
+		<div class="border"></div>
+		<div class="copy">
+			<small>Copyright &copy; Sample Travel, All Rights Reserved.</small>	
+		</div>
+	</footer>
+	<!-- ▲ フッター ▲ -->
+
+</div>
+
+
+	<!-- loading -->
+	<!-- <div class="loading" id="loading">
+		<picture>
+			<source srcset="./assets/images/loading_sp.webp" media="(max-width: 768px)">
+			<img src="./assets/images/loading_pc.webp" width="2734" height="1540" alt="">
+		</picture>
+	</div> -->
+	<!-- loading -->
+
+
+</body>
+</html>

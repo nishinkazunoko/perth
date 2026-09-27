@@ -1,0 +1,36 @@
+{
+  "slides": [
+    {
+      "name": "Cottesloe Beach",
+      "place": "Marine Parade, Cottesloe WA 6011",
+      "src": "./assets/images/slider01.webp",
+      "linkToColumn": "https://www.cottesloe.wa.gov.au/community/families-youth-and-children/activities-for-youth/cottesloe-beach.aspx",
+      "id": 2,
+      "linkToTour": ""
+    },
+    {
+      "name": "Elizabeth Quay",
+      "place": "The Esplanade, Perth WA 6000",
+      "src": "./assets/images/slider02.webp",
+      "linkToColumn": "https://visitperth.com/see-and-do/public-spaces/venues/elizabeth-quay",
+      "id": 2,
+      "linkToTour": ""
+    },
+    {
+      "name": "Blue Boat House",
+      "place": "Kings Park Avenue, Crawley WA 6009",
+      "src": "./assets/images/slider03.webp",
+      "linkToColumn": "https://www.westernaustralia.com/en/attraction/crawley-edge-boatshed/5e73085f21a71f594d72bc02",
+      "id": 1,
+      "linkToTour": ""
+    },
+    {
+      "name": "Narrows Bridge",
+      "place": "South Perth WA 6000",
+      "src": "./assets/images/slider04.webp",
+      "linkToColumn": "https://www.cloughgroup.com/projects/narrows-bridge",
+      "id": 2,
+      "linkToTour": ""
+    }
+  ]
+}
